@@ -1,0 +1,6 @@
+//SASS MIXINS
+@mixin convert {
+    @media all and (min-width: 40rem) {
+        @content;
+    } 
+}
